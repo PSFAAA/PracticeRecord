@@ -68,7 +68,7 @@ class FileToDict:
                     # print(xlsx_value, '<', xlsx_type, '>')
                 # print(xlsx_type, '', xlsx_value)
                 # print(xlsx_value, '<', xlsx_type, '>')
-                case[sh.cell(1, col).value] = xlsx_value
+                case[sh.cell(1, col).value.replace(" ", "")] = xlsx_value
                 if col == cols - 1:
                     cases.append(case)
         wb.save(self.file_name)
@@ -106,7 +106,7 @@ class FileToDict:
                     pass
                     # xls_value = f'{xls_value:.4f}'
                 # print(xls_type, '', xls_value)
-                case[sh.cell(0, col).value] = xls_value
+                case[sh.cell(0, col).value.replace(" ", "")] = xls_value
                 if col == cols - 1:
                     cases.append(case)
         return cases
@@ -139,10 +139,12 @@ def main():
     D:\PT_code\py_test\files\abes.csv
     D:\PT_code\py_test\files\a.xlsx
     D:\PT_code\py_test\files\b.xls
+    D:\下载内容\客户演示数据.xlsx
     """
     # ftj = FileToDict(r'D:\PT_code\py_test\files\2查询分拣任务列表.csv')
     ftj = FileToDict(input('文件路径：'))
     ftj.get_json()
+    input('复制！！！')
 
 
 if __name__ == '__main__':
