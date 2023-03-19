@@ -1,0 +1,12 @@
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/bin/Debug/net7.0/Ch09ClassLib.deps.json
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/bin/Debug/net7.0/Ch09ClassLib.dll
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/bin/Debug/net7.0/Ch09ClassLib.pdb
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/Ch09ClassLib.csproj.AssemblyReference.cache
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/Ch09ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/Ch09ClassLib.AssemblyInfoInputs.cache
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/Ch09ClassLib.AssemblyInfo.cs
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/Ch09ClassLib.csproj.CoreCompileInputs.cache
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/Ch09ClassLib.dll
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/refint/Ch09ClassLib.dll
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/Ch09ClassLib.pdb
+/Users/timpan/TP.CodeTest/C#/Ch09ClassLib/Ch09ClassLib/obj/Debug/net7.0/ref/Ch09ClassLib.dll

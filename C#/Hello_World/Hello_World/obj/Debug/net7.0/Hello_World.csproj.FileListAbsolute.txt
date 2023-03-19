@@ -1,0 +1,15 @@
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/bin/Debug/net7.0/Hello_World
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/bin/Debug/net7.0/Hello_World.deps.json
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/bin/Debug/net7.0/Hello_World.runtimeconfig.json
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/bin/Debug/net7.0/Hello_World.dll
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/bin/Debug/net7.0/Hello_World.pdb
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.csproj.AssemblyReference.cache
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.AssemblyInfoInputs.cache
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.AssemblyInfo.cs
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.csproj.CoreCompileInputs.cache
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.dll
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/refint/Hello_World.dll
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.pdb
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/Hello_World.genruntimeconfig.cache
+/Users/timpan/TP.CodeTest/C#/Hello_World/Hello_World/obj/Debug/net7.0/ref/Hello_World.dll
