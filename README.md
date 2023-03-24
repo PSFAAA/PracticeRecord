@@ -174,6 +174,8 @@
 
 ---
 
+##### ![Permute](https://gitee.com/mzxdxdd/mdimages/raw/master/202303241657719.png)
+
 ##### Permute
 
 + 媒体文件格式转换工具
@@ -181,6 +183,8 @@
   + 软件来源：TXT
 
 ---
+
+![Parallels_Desktop](https://gitee.com/mzxdxdd/mdimages/raw/master/202303241658356.png)
 
 ##### Parallels Desktop
 
@@ -190,6 +194,8 @@
 
 ---
 
+![NeatDownloadManager](https://gitee.com/mzxdxdd/mdimages/raw/master/202303241701075.png)
+
 ##### NeatDownloadManager
 
 + 类似IDM的免费下载工具
@@ -198,6 +204,8 @@
 
 ---
 
+![Navicat](https://gitee.com/mzxdxdd/mdimages/raw/master/202303241702560.png)
+
 ##### Navicat Premium
 
 + 数据库可视化管理工具
@@ -205,6 +213,8 @@
   + 软件来源：TXT
 
 ---
+
+![Motrix](https://gitee.com/mzxdxdd/mdimages/raw/master/202303241706578.png)
 
 ##### Motrix
 
