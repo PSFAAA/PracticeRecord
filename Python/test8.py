@@ -1,53 +1,52 @@
-# import random
-import time
-import re
-import json
-import requests
-from bs4 import BeautifulSoup
+"""
+贪婪法：在对问题求解时，总是做出在当前看来是最好的选择，不追求最优解，快速找到满意解。
+输入：
+20 6
+电脑 200 20
+收音机 20 4
+钟 175 10
+花瓶 50 2
+书 10 1
+油画 90 9
+"""
 
 
-# 0818页面读取
-class WebTextsRead:
-    def __init__(self, page_nums):
-        self.page_nums = int(page_nums)
+class Thing(object):
+    """物品"""
 
-    def web_text(self):
-        max_pg_num = self.page_nums
-        cases = []
-        for page in range(0, max_pg_num):
-            resp = requests.get(
-                url=f'http://www.0818tuan.com/list-1-{page}.html',
-                # 通过get函数的headers参数设置User-Agent的值，具体的值可以在浏览器的开发者工具查看到。
-                headers={
-                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36'}
-            )
+    def __init__(self, name, price, weight):
+        self.name = name
+        self.price = price
+        self.weight = weight
 
-            soup = BeautifulSoup(resp.text, 'lxml')
+    @property
+    def value(self):
+        """价格重量比"""
+        return self.price / self.weight
 
-            for k in soup.find_all('a', {'target': '_blank', 'class': 'list-group-item'}, limit=40):
-                case = {}
-                pattern = re.compile(r'<span class="badge badge-success red">([^&]*?)</span>')
-                k_time = pattern.findall(str(k))
-                case['time'] = k_time[0]
-                case['title'] = k['title']
-                case['href'] = 'http://www.0818tuan.com' + k['href']
-                cases.append(case)
-                # print(k_time[0], k['title'], 'http://www.0818tuan.com' + k['href'])
-            # time.sleep(random.random() * 3 + 1)
-            time.sleep(1)
-        return cases
 
-    def get_json(self):
-        print(json.dumps(self.web_text(), ensure_ascii=False))
+def input_thing():
+    """输入物品信息"""
+    name_str, price_str, weight_str = input().split()
+    return name_str, int(price_str), int(weight_str)
 
 
 def main():
-    r"""
-    """
-    wtr = WebTextsRead(input('读取页数：'))
-    wtr.get_json()
+    """主函数"""
+    max_weight, num_of_things = map(int, input().split())
+    all_things = []
+    for _ in range(num_of_things):
+        all_things.append(Thing(*input_thing()))
+    all_things.sort(key=lambda x: x.value, reverse=True)
+    total_weight = 0
+    total_price = 0
+    for thing in all_things:
+        if total_weight + thing.weight <= max_weight:
+            print(f'小偷拿走了{thing.name}')
+            total_weight += thing.weight
+            total_price += thing.price
+    print(f'总价值: {total_price}美元')
 
 
 if __name__ == '__main__':
     main()
-
